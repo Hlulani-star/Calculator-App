@@ -1,11 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000000;
+    overflow: hidden;
+}
+
 table {
     color: #ffffff;
     text-align: center;
     border-collapse: collapse;
     font: normal 3em Arial, Helvetica, sans-serif;
-    width: 100%;
-    max-width: 100%;
+    width: 100vw;
+    max-width: 100vw;
     overflow: hidden;
+    table-layout: fixed;
 }
 
 tr {
@@ -14,7 +30,7 @@ tr {
 }
 
 td {
-    width: 25vw;
+    width: 25%;
     border: 1px solid #4e494d;
 }
 
